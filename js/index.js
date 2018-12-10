@@ -81,6 +81,7 @@ window.onload = function () {
             imgs[arr[i]].setAttribute('value', newValue[i]);
             imgs[arr[i]].src = 'img/cube_' + newValue[i] + '.png';
         }
+      
     }
     create();
 
@@ -167,7 +168,7 @@ window.onload = function () {
         for (let i = 0; i < arr.length; i++) {
             if (!newArr[i]) newArr[i] = 0;
         }
-
         return newArr;
+        
     }
 }
